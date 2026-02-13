@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi segunda pagina responsive</title>
+</head>
+<body>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+        }
+       header,nav,main,footer{
+        padding: 15px;
+    
+       } 
+       header{
+        background-color: blue;
+        color: white;
+        text-align: center;
+       }
+       nav{
+        background: #cdd6f7;
+       
+        
+       }
+       footer{
+        background: #2b6cb0;
+        color:white;
+        text-align: center;
+       }
+       .grib{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        padding: 15px;
+       }
+       .caja{
+        background: #f7fafc;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 25,30,65,grey;
+       }
+       .caja img{
+         max-width: 100%;
+            height: auto;
+       }
+
+       nav img{
+        
+        height: 40px;
+        display: block;
+       }
+       a{
+        margin: 150px;
+       }
+       
+    </style>
+
+    >
+    <header>
+        <h1>MI web responsive (Hilary Rosales)</h1>
+        <p>Ejemplo simple usando grib</p>
+    </header>
+
+    <nav>
+        <img src="https://wallpapers.com/images/hd/jimin-pictures-kfuu8l7d9efut4br.jpg" alt="" >
+        <a href="#"> inicio</a>
+         <a href="#"> block</a>
+          <a href="#"> acerca</a>
+         
+    </nav>
+    <main>
+        <div class="grib">
+            <article class="caja">
+                <h2> Artículo 1</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nesciunt odio rem exercitationem deserunt dolorum saepe odit adipisci officiis. Quisquam iure error quos ullam exercitationem inventore provident alias recusandae incidunt!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus illo nam eius neque minus? Obcaecati, consequatur beatae. Assumenda explicabo laboriosam ullam omnis adipisci eius at consectetur consequuntur vel exercitationem? Qui.</p>
+                <img src="https://wallpapers.com/images/hd/jimin-pictures-kfuu8l7d9efut4br.jpg" alt="" >
+            </article>
+
+            <article class="caja">
+                <h2> Artículo 2</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nesciunt odio rem exercitationem deserunt dolorum saepe odit adipisci officiis. Quisquam iure error quos ullam exercitationem inventore provident alias recusandae incidunt!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus illo nam eius neque minus? Obcaecati, consequatur beatae. Assumenda explicabo laboriosam ullam omnis adipisci eius at consectetur consequuntur vel exercitationem? Qui.</p>
+                <img src="https://wallpapers.com/images/hd/jimin-pictures-kfuu8l7d9efut4br.jpg" alt="" >
+            </article>
+
+              <article class="caja">
+                <h2> Artículo 3</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nesciunt odio rem exercitationem deserunt dolorum saepe odit adipisci officiis. Quisquam iure error quos ullam exercitationem inventore provident alias recusandae incidunt!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus illo nam eius neque minus? Obcaecati, consequatur beatae. Assumenda explicabo laboriosam ullam omnis adipisci eius at consectetur consequuntur vel exercitationem? Qui.</p>
+                <img src="https://wallpapers.com/images/hd/jimin-pictures-kfuu8l7d9efut4br.jpg" alt="" >
+            </article>
+
+
+        </div>
+    </main>
+    <footer>
+        <p> footer - ejemplo con grid</p>
+    </footer>
+</body>
+</html>

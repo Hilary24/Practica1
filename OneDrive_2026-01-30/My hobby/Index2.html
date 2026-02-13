@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página wed responsive</title>
+</head>
+<body>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial,sans-serif;
+            line-height: 1.5;
+        }
+
+        header,nav,main,footer{
+            padding: 15px;
+        }
+         header{
+            background-color: black;
+            color: white;
+         }
+         nav{
+            background: #eee;
+            text-align: center;
+         }
+         footer{
+            background: black;
+            color: white;
+            text-align: center;
+         }
+         .contenedor{
+            display: flex;
+            gap: 55px;
+            padding: 15px;
+
+
+         }
+         .col{
+            background: #f6f6f6;
+            padding: 15px;
+            flex: 1;
+         }
+         @media (max-width:700px) {
+            .contenedor{
+                flex-direction: column;
+            }
+         }
+
+         nav a{
+            margin-right: 10px;
+            text-decoration: none;
+            color: #333;
+         }
+         nav a:hover{
+            text-decoration: underline;
+         }
+         .col img{
+            max-width: 100%;
+            height: auto;
+         }
+    </style>
+     <header>
+        <h1>Mi wed responsive (hilary Rosales)</h1>
+        <p>Ejemplo simple para entender responsive.</p>
+     </header>
+
+     <nav>
+
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contactos</a>
+     </nav>
+
+     <main>
+        <div class="contenedor">
+            <section class="col">
+                <h2>Seccion 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nesciunt odio rem exercitationem deserunt dolorum saepe odit adipisci officiis. Quisquam iure error quos ullam exercitationem inventore provident alias recusandae incidunt!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus illo nam eius neque minus? Obcaecati, consequatur beatae. Assumenda explicabo laboriosam ullam omnis adipisci eius at consectetur consequuntur vel exercitationem? Qui.</p>
+                <img src="https://wallpapers.com/images/hd/jimin-pictures-kfuu8l7d9efut4br.jpg" alt="" >
+            </section>
+
+            <section class="col">
+                <h2>Seccion 2</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nesciunt odio rem exercitationem deserunt dolorum saepe odit adipisci officiis. Quisquam iure error quos ullam exercitationem inventore provident alias recusandae incidunt!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus illo nam eius neque minus? Obcaecati, consequatur beatae. Assumenda explicabo laboriosam ullam omnis adipisci eius at consectetur consequuntur vel exercitationem? Qui.</p>
+            <img src="https://celebrays.com/wp-content/uploads/2024/01/J-hope-social-media-accounts-768x1024.webp" alt="">
+            </section>
+        </div>
+     </main>
+
+     <footer>
+        <p> 2026 - Ejemplo sencillo</p>
+     </footer>
+</body>
+</html>
